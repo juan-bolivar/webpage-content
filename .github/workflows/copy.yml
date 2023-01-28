@@ -46,3 +46,5 @@ jobs:
           script: |
             whoami
             ls -al
+            cd /home/lugo/lugo && hugo --destination /var/www/html
+            ls -al /var/www/html
