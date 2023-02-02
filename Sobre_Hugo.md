@@ -1,5 +1,5 @@
 ---
-title: "Example"
+title: "Sobre_Hugo_Ejemplo"
 date: 2023-02-01
 ---
 
