@@ -36,6 +36,7 @@ jobs:
             rm -rf /home/lugo/newsite/content
             rm -rf /var/www/html/
             git clone https://github.com/juan-bolivar/webpage-content.git /home/lugo/newsite/content
+            mv -f /home/lugo/newsite/content/styling/ /home/lugo/newsite/themes/lugo/layouts/_default/
             rm -rf /home/lugo/newsite/content/.*
             cd /home/lugo/newsite && hugo --destination /var/www/html
             
