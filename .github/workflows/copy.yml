@@ -34,5 +34,6 @@ jobs:
           port: ${{ secrets.PORT }}
           script: |
             git clone https://github.com/juan-bolivar/webpage-content.git /home/lugo/newsite/content
+            rm -rf /home/lugo/newsite/content/.github
             cd /home/lugo/newsite && hugo --destination /var/www/html
             
